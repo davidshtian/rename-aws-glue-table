@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
 
-    # Parge args
+    # Parse args
     parser.add_argument('--database-name', type=str, default='default')
     parser.add_argument('--old-table-name', type=str, default='old_table')
     parser.add_argument('--new-table-name', type=str, default='new_table')
