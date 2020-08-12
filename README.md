@@ -6,4 +6,6 @@ As AWS Glue currently does not provide the table rename feature, the user need t
 ### Usage
 The usage of the code is quite simple, just provide your database and table names, plus the region used.
 
+```
 python rename_table.py --database-name <db name> --old-table-name <old table name> --new-table-name <new table name> 
+```
