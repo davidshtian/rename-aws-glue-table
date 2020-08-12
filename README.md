@@ -11,3 +11,6 @@ The usage of the code is quite simple, just provide your database and table name
 ```
 python rename_table.py --database-name <db name> --old-table-name <old table name> --new-table-name <new table name> --region-name <region>
 ```
+
+### References
+https://gist.github.com/dan-hook/843ac18047906e506f447becc4231a61
