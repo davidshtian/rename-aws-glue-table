@@ -24,6 +24,8 @@ def rename_glue_table(client, database_name, old_table_name, new_table_name):
     table_input.pop("DatabaseName")
     table_input.pop("IsRegisteredWithLakeFormation")
     table_input.pop("CatalogId")
+    table_input.pop("VersionId")
+    table_input.pop("IsMultiDialectView")
 
     # Create new table
     try:
